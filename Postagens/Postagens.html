@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Postagens - S.M.A.R.T. System</title>
+  <link rel="stylesheet" href="Posts.css">
+</head>
+<body>
+  <header>
+    <img src="../Img/Logo.jpeg">
+    <nav>
+      <ul>
+        <li><a href="/Lobby/Index.html">Lobby</a></li>
+        <li><a href="/Login/Login.html">Login</a></li>
+        <li><a href="/Postagens/Postagens.html">Postagens</a></li>
+        <li><a href="/Usuarios/Usuarios.html">Usuários</a></li>
+        <li><a href="/Hardware/Hardware.html">Comunicações</a></li>
+        <li><a href="/Busca/Busca.html">Busca</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="crud-container">
+      <h2 style="color:#89ffdc">Postagens</h2>
+      <table>
+        <thead>
+          <tr>
+            <th style="color:#010817">ID</th>
+            <th style="color:#010817">Título</th>
+            <th style="color:#010817">Conteúdo</th>
+            <th style="color:#010817">Ações</th>
+          </tr>
+        </thead>
+        <tbody id="post-table-body">
+
+        </tbody>
+      </table>
+      <form id="post-form">
+        <input type="text" id="posttitle" placeholder="Título" required>
+        <input type="text" id="posttitle" placeholder="Conteúdo" required>
+        <button type="submit" style="color:#010817">Adicionar Postagem</button>
+      </form>
+    </div>
+  </main>
+  <footer>
+    <p style="color:#89ffdc;">© 2024 S.M.A.R.T. System. Todos os direitos reservados.</p>
+  </footer>
+  <script src="scripts.js"></script>
+</body>
+</html>
